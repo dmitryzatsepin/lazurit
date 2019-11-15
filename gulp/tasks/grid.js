@@ -4,7 +4,7 @@ module.exports = function () {
 	$.gulp.task('grid', (done) => {
 		let settings = {
 			outputStyle: 'sass',
-			columns: 24,
+			columns: 12,
 			offset: '30px',
 			mobileFirst: false,
 			container: {
