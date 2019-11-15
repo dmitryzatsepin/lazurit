@@ -24,7 +24,8 @@ $.gulp.task('dev', $.gulp.series(
 		'fonts',
 		'js:dev',
 		'img:dev',
-		'svg'
+		'svg',
+		'robots'
 	)
 ));
 
@@ -37,7 +38,8 @@ $.gulp.task('build', $.gulp.series(
 		'fonts',
 		'js:build-min',
 		'img:build',
-		'svg'
+		'svg',
+		'robots'
 		)
 ));
 
