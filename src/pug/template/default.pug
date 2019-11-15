@@ -32,9 +32,11 @@ html(lang="ru-RU")
 		link(rel="stylesheet" href="assets/css/style.css")
 
 	body(class=pageClass)
+	
 		//- include ../helpers/debugGrid
 		include ../modules/header
 		block content
 		include ../modules/footer
-		script(src="assets/js/main.js")
+
 		block scripts
+		script(src="assets/js/main.js")
