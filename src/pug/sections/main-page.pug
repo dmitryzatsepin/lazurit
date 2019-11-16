@@ -1,28 +1,25 @@
 section.main-page
-	header.main-header(style='background-image:url(assets/img/bg_header.png);')
-		.top-header
-			.logo
-				img.img-responsive(src='assets/img/logo.png', alt='Логотип')
-//-               .row.align-items-center
-//-                 .offset-md-3
-//-                 .top-menu.col-md
-//-                   a.top-menu-item(href='#') Главная
-//-                   a.top-menu-item(href='#') Наши работы
-//-                   a.top-menu-item(href='#') Услуги
-//-                   a.top-menu-item(href='#') Материалы
-//-                   a.top-menu-item(href='#') Контакты
-//-                 .w-100
-//-                 .offset-md-3
-//-                 .contact.col
-//-                   p
-//-                     | 8 (343) 215-06-22
-//-                     br
-//-                     |  8 (34364) 3-16-60
-//-                 .col-md-4
-//-                   button.btn.btn-primary.blue(type='button')
-//-                     | Оставить заявку на звонок
-//-           .row.justify-content-center
-//-             .col
+		header.main-header(style='background-image:url(assets/img/bg_header.png);')
+			.wrapper
+				.top-header
+					.logo
+						img.img-responsive(src='assets/img/logo.png', alt='Логотип')
+					.top-menu
+						.row
+							a.top-menu-item(href='#') Главная
+							a.top-menu-item(href='#') Наши работы
+							a.top-menu-item(href='#') Услуги
+							a.top-menu-item(href='#') Материалы
+							a.top-menu-item(href='#') Контакты
+						.row.bdr
+							.contact
+								p
+								| 8 (343) 215-06-22
+								br
+								|  8 (34364) 3-16-60
+							.contact-button
+								button.btn.btn-primary.blue(type='button') Оставить заявку на звонок
+
 //-               .header-content
 //-                 h1 Изготовление и установка памятников
 //-           .w-100
