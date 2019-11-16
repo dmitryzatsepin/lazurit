@@ -1,34 +1,34 @@
 .main-page
 
 .main-header
-	position: relative
 	height: 100vh
-	width: 100%
+	width: auto
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assets/img/bg_header.png)
-	background-size: 110%
-	background-repeat: no-repeat
-	background-position: top right
-	z-index: 0
+
 .wrapper
 	+wrapper()
-	z-index: 0
 
 .top-header
 	+row-flex()
+	justify-content: space-between
 	padding-top: 20px
+	// color: $white
 
 .logo
 	+col()
-	+size(4)
-	width: 220px
+	+size(3)
+	+size-sm(12)
+	img
+		max-width: 220px
+		min-width: 100px
 
 .top-menu
 	+col()
-	+size(8)
+	+size(9)
+	+size-sm(12)
 	display: flex
 	flex-direction: column
 	justify-content: space-between
-	color: $white
 	font-weight: bold
 	font-size: 22px
 
@@ -47,14 +47,22 @@
 	&__phone
 		color: $white
 
+
 .contact-btn
 	+col()
-	padding: 15px 20px
+	padding: 20px 20px
 	color: $white
+	font-size: 16px
+	font-weight: bold
+	text-transform: uppercase
 	background: $color_accent-blue
 	border: none
-	border-radius: 25px
-	box-shadow: $shadow
+	border-radius: 30px
+	&:hover
+		cursor: pointer
+		background: lighten($color_accent-blue, 2%)
+		transition: 0.3s all ease
+
 
 
 
