@@ -1,4 +1,3 @@
 console.log(1);
+//= components/flickity-slider.js
 
-//= components/tabs.js
-//= components/slider.js
