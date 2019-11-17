@@ -3,6 +3,8 @@ var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
   contain: true,
+  groupCells: true,
+  groupCells: 2,
   wrapAround: true
 });
 
