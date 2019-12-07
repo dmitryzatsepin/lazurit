@@ -1,35 +1,86 @@
 section.ability
-  .row.justify-content-center
-    .row.justify-content-center
-      .a-h2.col
-        h2.ability-h2 Профессиональный подход<
-      .w-100
-      .badge
-        img.first(src='/img/svg/11.svg', alt='')
-        img.second(src='/img/svg/1.svg', alt='')
-      .badge
-        img.first(src='/img/svg/22.svg', alt='')
-        img.second(src='/img/svg/2.svg', alt='')
-      .badge
-        img.first(src='/img/svg/33.svg', alt='')
-        img.second(src='/img/svg/3.svg', alt='')
-      .badge
-        img.first(src='/img/svg/44.svg', alt='')
-        img.second(src='/img/svg/4.svg', alt='')
-      .badge
-        img.first(src='/img/svg/55.svg', alt='')
-        img.second(src='/img/svg/5.svg', alt='')
-      .badge
-        img.first(src='/img/svg/66.svg', alt='')
-        img.second(src='/img/svg/6.svg', alt='')
-      .badge
-        img.first(src='/img/svg/77.svg', alt='')
-        img.second(src='/img/svg/7.svg', alt='')
-      .w-100
-      .container
-        .row
-          .a-text
-            h4.a-h4 Лазурит" - изготовление памятников на современном оборудовании
-            p.ability-p
-              | Специалисты камнеобрабатывающего предприятия "Лазурит" имеют огромный опыт работы и с гранитом, и мрамором, и со всеми другими природными материалами.
-              |	За 15 лет работы в сфере производства ритуальных изделий, компания "Лазурит", созданной на базе ООО НПО "Экспериментальный завод", стала клиентоориентированной структурой, оснащенной cовременным камнерезным оборудованием.
+	.wrapper
+		h2.section__title.section__title--accent Профессиональный подход
+		.flip-cards
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('1')
+					.flip-card-back
+						svg.icon-back
+							+icon('11')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('2')
+					.flip-card-back
+						svg.icon-back
+							+icon('22')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('3')
+					.flip-card-back
+						svg.icon-back
+							+icon('33')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('4')
+					.flip-card-back
+						svg.icon-back
+							+icon('44')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('5')
+					.flip-card-back
+						svg.icon-back
+							+icon('55')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('6')
+					.flip-card-back
+						svg.icon-back
+							+icon('66')
+			.flip-card(tabIndex="0")
+				.flip-card-inner
+					.flip-card-front
+						svg.icon-front
+							+icon('7')
+					.flip-card-back
+						svg.icon-back
+							+icon('77')
+		h4.ability__subtitle Лазурит" - изготовление памятников на современном оборудовании
+		p.ability-text 
+			| Специалисты камнеобрабатывающего предприятия "Лазурит" имеют огромный опыт работы и с гранитом, и мрамором, и со всеми другими природными материалами. За 15 лет работы в сфере производства ритуальных изделий, компания "Лазурит", созданной на базе ООО НПО "Экспериментальный завод", стала клиентоориентированной структурой, оснащенной cовременным камнерезным оборудованием.
+
+
+	img.first(src='assets/img/svg/11.svg', alt='')
+	img.second(src='assets/img/svg/1.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/22.svg', alt='')
+	img.second(src='assets/img/svg/2.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/33.svg', alt='')
+	img.second(src='assets/img/svg/3.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/44.svg', alt='')
+	img.second(src='assets/img/svg/4.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/55.svg', alt='')
+	img.second(src='assets/img/svg/5.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/66.svg', alt='')
+	img.second(src='assets/img/svg/6.svg', alt='')
+	.badge
+	img.first(src='assets/img/svg/77.svg', alt='')
+	img.second(src='assets/img/svg/7.svg', alt='')
+

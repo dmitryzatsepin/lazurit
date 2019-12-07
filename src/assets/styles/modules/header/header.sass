@@ -1,2 +1,114 @@
+.header
+	position: relative
+	height: 100vh
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assets/img/bg_header.png)
+	background-repeat: no-repeat
+	background-size: 100% auto
+
+.wrapper
+	+wrapper()
+
+.header__top
+	+row-flex()
+	justify-content: space-between
+	padding-top: 20px
+
+.logo
+	+col()
+	+size(3)
+	+size-sm(12)
+	img
+		max-width: 220px
+		min-width: 100px
+
+.nav
+	+col()
+	+size(9)
+	+size-sm(12)
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	font-weight: bold
+	font-size: 22px
+
+.row
+	+row-flex()
+	justify-content: space-between
+
+.nav-item
+	+col()
+	color: $color_ivory
+	&:hover
+		text-decoration: underline
+
+.contact
+	+col()
+	&__phone
+		color: $color_ivory
+
+.contact__btn
+	+col()
+	padding: 20px 20px
+	color: $color_ivory
+	font-size: 16px
+	font-weight: bold
+	text-transform: uppercase
+	background: $color_accent
+	border: none
+	border-radius: 30px
+	&:hover
+		cursor: pointer
+		background: lighten($color_accent, 2%)
+		transition: 0.3s all ease
+
+.header__content
+	position: absolute
+	bottom: 0
+	margin-bottom: 20px
+	display: flex
+	flex-direction: column
+	&-title
+		font-size: 48px
+		color: $color_ivory
+		text-transform: uppercase
+		text-align: center
+
+.header__content-title
+	margin-bottom: 20px
+
+.header__slider
+	background-color: $color_ivory
+	padding: 10px 10px
+	border-radius: 10px
+
+.header__slider-item
+	// width: 5%
+	height: 160px
+	margin-right: 10px
+
+.flickity-prev-next-button
+	background: transparent 
+	background-repeat: no-repeat
+	top: 70%
+	width: 100%
+	height: 100%
+	border-radius: 0
+	&:hover
+		background-repeat: no-repeat
+		background: transparent 
+.flickity-prev-next-button.previous
+	background-image: url(/assets/img/l_arrow.png)
+	left: -60px
+.flickity-prev-next-button.next 
+	background-image: url(/assets/img/r_arrow.png)
+	right: -1140px
+
+.flickity-button-icon
+	display: none
+	
+
+
+
+
 
 
